@@ -1478,6 +1478,24 @@ i {
     width: 40vmax;
     height: 40vmax;
   }
+  .title-first {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: -8%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    z-index: 1;
+  }
+  .title-flex {
+    width: 65%;
+  }
+  .publisher {
+    display: flex;
+    justify-content: center;
+    width: 110%;
+  }
   .layer-mask {
     width: 40vmax;
     height: 40vmax;
@@ -1530,8 +1548,14 @@ i {
   .need-title {
     scale: 1.5;
   }
+  .need-contents {
+    top: 20%;
+  }
   .need-box h2 {
-    font-size: 20px;
+    font-size: 18px;
+  }
+  .need-box p {
+    font-size: 14px;
   }
   .need-box > .bar {
     width: 6vw;
@@ -1589,7 +1613,7 @@ i {
     line-height: 20px;
   }
   .display {
-    height: 50vw;
+    height: 47vw;
     top: 25%;
   }
   #cube .col-md-8 {
@@ -1756,6 +1780,14 @@ i {
   }
 }
 @media screen and (max-width: 470px) {
+  #rooting {
+    width: 32vmax;
+    height: 32vmax;
+  }
+  .layer-mask {
+    width: 32vmax;
+    height: 32vmax;
+  }
   .icon-box-list {
     width: 90%;
     margin-top: -40%;
@@ -1764,5 +1796,28 @@ i {
     /* flex-wrap: wrap; */
     scale: 0.7;
     justify-content: flex-start;
+  }
+  .web-text {
+    bottom: 42vh;
+  }
+  .web-text > .text-contents-box > .text-order {
+    display: block;
+  }
+  .web-text > .text-contents-box > .text-order > .text-contents {
+    width: 90%;
+  }
+  .web-text > .text-contents-box > .text-order > .text-contents > .text-title {
+    font-size: 17px;
+  }
+  #tab-angular .about-contents div {
+    display: block;
+    height: 100%;
+  }
+  #tab-angular .about-contents .left {
+    font-size: 20px;
+    margin-top: 10%;
+  }
+  #tab-angular .about-contents .cont-3 .left {
+    margin-bottom: 10%;
   }
 }
