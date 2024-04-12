@@ -1520,9 +1520,9 @@ i {
   }
   .Main-title .xceed {
     scale: 0.7;
-    letter-spacing: 0.3em;
-    margin-left: -40vw;
-    margin-top: -30vh;
+    letter-spacing: 0.1em;
+    margin-left: -25vw;
+    margin-top: -35vh;
     writing-mode: vertical-lr;
     text-orientation: upright;
   }
