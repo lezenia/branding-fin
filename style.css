@@ -1614,7 +1614,7 @@ i {
     line-height: 20px;
   }
   .display {
-    height: 42vw;
+    height: 40vw;
     top: 20%;
   }
   #cube .col-md-8 {
@@ -1703,13 +1703,13 @@ i {
     z-index: 10;
     top: 15%;
     left: calc(50% - 150px);
-    scale: 60%;
+    scale: 50%;
     width: 300px;
     height: 600px;
     transition: 0.5s;
   }
   .display-box:hover > .display-app {
-    scale: 65%;
+    scale: 55%;
     transition: 0.5s;
   }
   .back-app,
