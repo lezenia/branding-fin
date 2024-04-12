@@ -1797,11 +1797,9 @@ i {
     margin-right: auto;
     width: 100%;
     z-index: 1;
-    border: 1px solid red;
   }
   .title-flex {
     width: 65%;
-    border: 1px solid green;
   }
   .web-w {
     scale: 0.8;
@@ -1810,7 +1808,6 @@ i {
     display: flex;
     justify-content: center;
     width: 110%;
-    border: 1px solid orange;
     scale: 0.8;
   }
   .icon-box-list {
