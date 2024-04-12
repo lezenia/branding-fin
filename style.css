@@ -1566,7 +1566,7 @@ i {
     background-color: #000;
   }
   #tab-angular .about-contents {
-    width: 80vw;
+    width: 70vw;
     margin-top: 10%;
   }
   #tab-angular .img-box-pt:hover {
@@ -1843,8 +1843,24 @@ i {
     margin-bottom: 10%;
   }
   article {
-    width: 300px;
+    width: 100%;
     left: 0;
     right: 0;
+  }
+  .need-box-2 .gear-box {
+    scale: 0.8;
+  }
+  .need-box-3 .recycle {
+    width: 50%;
+    height: 90%;
+    left: 8%;
+  }
+  .need-box-3 .arrow-box {
+    width: 35%;
+    height: 40%;
+  }
+  .need-box-3 .arrow-box svg {
+    width: 70%;
+    height: 70%;
   }
 }
