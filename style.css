@@ -1613,8 +1613,8 @@ i {
     line-height: 20px;
   }
   .display {
-    height: 47vw;
-    top: 25%;
+    height: 42vw;
+    top: 20%;
   }
   #cube .col-md-8 {
     position: absolute;
@@ -1655,8 +1655,8 @@ i {
     scale: 0.7;
   }
   #cube .right article {
-    height: 80%;
-    top: 30%;
+    height: 75%;
+    top: 32%;
   }
   #cube .right article a {
     color: #000;
@@ -1781,12 +1781,37 @@ i {
 }
 @media screen and (max-width: 470px) {
   #rooting {
-    width: 32vmax;
-    height: 32vmax;
+    width: 30vmax;
+    height: 30vmax;
   }
   .layer-mask {
-    width: 32vmax;
-    height: 32vmax;
+    width: 30vmax;
+    height: 30vmax;
+  }
+  .title-first {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: -8%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    z-index: 1;
+    border: 1px solid red;
+  }
+  .title-flex {
+    width: 65%;
+    border: 1px solid green;
+  }
+  .web-w {
+    scale: 0.8;
+  }
+  .publisher {
+    display: flex;
+    justify-content: center;
+    width: 110%;
+    border: 1px solid orange;
+    scale: 0.8;
   }
   .icon-box-list {
     width: 90%;
@@ -1819,5 +1844,10 @@ i {
   }
   #tab-angular .about-contents .cont-3 .left {
     margin-bottom: 10%;
+  }
+  article {
+    width: 300px;
+    left: 0;
+    right: 0;
   }
 }
