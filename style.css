@@ -471,6 +471,7 @@ a {
 .Main-title .down-title {
   display: flex;
   flex-direction: column;
+  align-items: end;
   width: 100%;
 }
 .Main-title .the {
@@ -1783,6 +1784,7 @@ i {
   #rooting {
     width: 30vmax;
     height: 30vmax;
+    display: none;
   }
   .layer-mask {
     width: 30vmax;
@@ -1810,10 +1812,30 @@ i {
     width: 110%;
     scale: 0.8;
   }
+  .Main-title {
+    width: 140%;
+  }
+  .Main-title .e {
+    margin-top: 5%;
+    margin-left: 16%;
+    scale: 1.1;
+  }
+  .Main-title .xceed {
+    scale: 0.7;
+    letter-spacing: -0.2em;
+    margin-left: -25vw;
+    margin-top: -40vh;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+  }
+  .Main-title .down-title {
+    scale: 0.8;
+    margin-top: 30%;
+  }
   .icon-box-list {
-    width: 90%;
+    width: 100%;
     margin-top: -40%;
-    left: 10%;
+    left: 5%;
     position: absolute;
     /* flex-wrap: wrap; */
     scale: 0.7;
@@ -1862,5 +1884,25 @@ i {
   .need-box-3 .arrow-box svg {
     width: 70%;
     height: 70%;
+  }
+  .et-hero-tabs .sub {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -230%;
+    width: 100%;
+    left: 0;
+    color: #666;
+  }
+  .et-hero-tabs .sub-title-1 {
+    font-size: 4vw;
+    font-weight: 500;
+    letter-spacing: 5px;
+    /* margin-top: 10px; */
+  }
+  .et-hero-tabs .sub-title-2 {
+    font-size: 3vw;
+    line-height: 2vw;
+    letter-spacing: 3px;
   }
 }
